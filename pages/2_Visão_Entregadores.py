@@ -88,7 +88,7 @@ def top_delivers(df1, top_asc):
 #---------------------------------------------------------------------------------------
 
 #import dataset
-df = pd.read_csv(r"C:\Users\itxha\train.csv.csv")
+df = pd.read_csv(r"C:\Users\itxha\Repos\curso_ftc\aulas\dataset\train.csv.csv")
 #------------------------------------------------
 #Limpando dados
 df1 = clean_code(df)
@@ -100,8 +100,8 @@ df1 = clean_code(df)
 
 st.header(' Marketplace - Customer View')
 st.sidebar.markdown( '# Curry Company')
-image_path = 'logo.jpg'
-image= Image.open(image_path)
+#image_path = 'logo.jpg'
+image= Image.open('logo.jpg')
 st.sidebar.image(image, width=300)
 st.sidebar.markdown('### The Expert in Killing Your Hunger')
 st.sidebar.markdown('##### Ask for the app, website or phone')
